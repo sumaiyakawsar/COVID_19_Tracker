@@ -1,0 +1,28 @@
+body {
+  /* background: rgba(192, 172, 172, 0.514); */
+  background: url(../src/images/bg.jpg) no-repeat;
+ background-position: center;
+ background-size: cover;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.image {
+  width: 370px;
+  margin-top: 50px;
+}
+
+@media (max-width: 770px) {
+  .container {
+    margin: 0 10%;
+  }
+
+  .image {
+    width: 100%;
+  }
+}
