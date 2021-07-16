@@ -39,6 +39,10 @@ class App extends React.Component {
         <Cards data={data} />
         <CountryPicker handleCountryChange={this.handleCountryChange} />
         <Chart data={data} country={country} />
+        <footer>
+          Created by{" "}
+          <a href="https://github.com/sumaiyakawsar">Sumaiya Kawsar</a>
+        </footer>
       </div>
     );
   }

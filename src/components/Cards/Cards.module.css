@@ -15,30 +15,27 @@
 
 .infected {
   background: rgba(0, 0, 255, 0.2) !important;
-
 }
 
 .infected:hover {
   color: rgba(0, 0, 255, 0.842) !important;
-  box-shadow:  0 10px 10px 0 rgba(0, 0, 255, 0.486)!important;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 255, 0.486) !important;
 }
 .recovered {
   background: rgba(0, 255, 0, 0.2) !important;
-
 }
 .recovered:hover {
   color: rgb(59, 209, 0) !important;
-  box-shadow: 0 10px 10px 0 rgba(0, 255, 0, 0.486)!important;
+  box-shadow: 0 10px 10px 0 rgba(0, 255, 0, 0.486) !important;
 }
 
 .deaths {
   background: rgba(255, 0, 0, 0.2) !important;
-
 }
 
 .deaths:hover {
   color: rgb(255, 0, 0) !important;
-  box-shadow: 0 10px 10px 0 rgba(255, 0, 0, 0.486)!important;
+  box-shadow: 0 10px 10px 0 rgba(255, 0, 0, 0.486) !important;
 }
 
 @media (max-width: 1000px) {
