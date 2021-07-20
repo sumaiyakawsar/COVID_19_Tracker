@@ -6,7 +6,6 @@
  ![Created Badge](https://badges.pufler.dev/created/sumaiyakawsar/COVID_19_Tracker?&style=plastic&color=black&labelColor=1AEE0B) ![Updated Badge](https://badges.pufler.dev/updated/sumaiyakawsar/COVID_19_Tracker?&style=plastic&color=black&labelColor=0004FF) ![Visits Badge](https://badges.pufler.dev/visits/sumaiyakawsar/COVID_19_Tracker?&style=plastic&color=black&labelColor=BF3F41)
 
 </h1>
-<hr>
 
 #### Dependencies Used
 ![Axios Badge](https://img.shields.io/npm/v/axios?style=flat&label=axios&labelColor=white) ![React Badge](https://img.shields.io/npm/v/react?style=flat&label=react&labelColor=white)  ![Material UI Badge](https://img.shields.io/npm/v/@material-ui/core?style=flat&label=@material-ui/core&labelColor=white) ![Chart.js Badge](https://img.shields.io/npm/v/chart.js?style=flat&label=chart.js&labelColor=white) ![classnames Badge](https://img.shields.io/npm/v/classnames?style=flat&label=classnames&labelColor=white) ![react-chartjs-2 Badge](https://img.shields.io/npm/v/react-chartjs-2?style=flat&label=react-chartjs-2&labelColor=white) ![react-countup Badge](https://img.shields.io/npm/v/react-countup?style=flat&label=react-countup&labelColor=white) ![react-dom Badge](https://img.shields.io/npm/v/react-dom?style=flat&label=react-dom&labelColor=white) ![react-scripts Badge](https://img.shields.io/npm/v/react-scripts?style=flat&label=react-scripts&labelColor=white) ![gh-pages Badge](https://img.shields.io/npm/v/gh-pages?style=flat&label=gh-pages&labelColor=white)
