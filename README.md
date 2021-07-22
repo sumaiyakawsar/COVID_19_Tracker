@@ -17,7 +17,6 @@
 
 | Name                        | Repository Link                |
 | ----------------------------| ---------------------------    |
-| _Title with Typing Feature_ | https://git.io/typing-svg      |
 | _Profile Badges_            | https://www.shields.io/        |
 | _Years & Repos Counter_     | https://pufler.dev/git-badges/ |
 
