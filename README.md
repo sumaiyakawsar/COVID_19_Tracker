@@ -3,7 +3,7 @@
 
  
 
- ![Created Badge](https://badges.pufler.dev/created/sumaiyakawsar/COVID_19_Tracker?&style=plastic&color=black&labelColor=1AEE0B) ![Updated Badge](https://badges.pufler.dev/updated/sumaiyakawsar/COVID_19_Tracker?&style=plastic&color=black&labelColor=0004FF) ![Visits Badge](https://badges.pufler.dev/visits/sumaiyakawsar/COVID_19_Tracker?&style=plastic&color=black&labelColor=BF3F41)
+ ![Created Badge](https://badges.pufler.dev/created/sumaiyakawsar/COVID_19_Tracker?&style=plastic&color=black&labelColor=1AEE0B) ![Updated Badge](https://badges.pufler.dev/updated/sumaiyakawsar/COVID_19_Tracker?&style=plastic&color=black&labelColor=0004FF) ![Visits Badge](https://badges.pufler.dev/visits/sumaiyakawsar/COVID_19_Tracker?&style=plastic&color=black&labelColor=BF3F41) [![wakatime](https://wakatime.com/badge/github/sumaiyakawsar/COVID_19_Tracker.svg)](https://wakatime.com/badge/github/sumaiyakawsar/COVID_19_Tracker)
 
 </h1>
 
