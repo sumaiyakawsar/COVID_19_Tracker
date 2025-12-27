@@ -1,6 +1,7 @@
 body {
   background: url(../src/images/bg.jpg) no-repeat;
   background-position: center;
+
   background-size: cover;
 }
 
@@ -11,21 +12,4 @@ body {
   flex-direction: column;
 }
 
-.image {
-  width: 370px;
-  margin-top: 50px;
-}
 
-footer{
-  margin-top: 60px;
-}
-
-@media (max-width: 770px) {
-  .container {
-    margin: 0 10%;
-  }
-
-  .image {
-    width: 100%;
-  }
-}

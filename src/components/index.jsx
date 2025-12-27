@@ -4,6 +4,11 @@ export {
 }
 from './Chart/Chart';
 export {
-    default as CountryPicker
+    default as Footer
 }
-from './CountryPicker/CountryPicker';
+    from './Footer/Footer';
+export {
+    default as Header
+}
+    from './Header/Header';
+  

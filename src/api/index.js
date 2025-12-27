@@ -1,47 +1,60 @@
-import axios from "axios";
+import axios from 'axios';
 
-const url = "https://covid19.mathdro.id/api";
+const BASE_URL = 'https://disease.sh/v3/covid-19';
 
+// 🌍 Global & country data
 export const fetchData = async (country) => {
-  let changeableUrl = url;
-
-  if (country) {
-    changeableUrl = `${url}/countries/${country}`;
-  }
   try {
-    const {
-      data: { confirmed, recovered, deaths, lastUpdate },
-    } = await axios.get(changeableUrl);
+    const url = country
+      ? `${BASE_URL}/countries/${country}`
+      : `${BASE_URL}/all`;
 
-    return { confirmed, recovered, deaths, lastUpdate };
+    const { data } = await axios.get(url);
+
+    return {
+      confirmed: { value: data.cases || 0 },
+      recovered: { value: data.recovered || 0 },
+      deaths: { value: data.deaths || 0 },
+      lastUpdate: data.updated,
+      countryInfo: data.countryInfo || {}
+    };
   } catch (error) {
-    console.log(error);
+    console.error('Error fetching data:', error);
+    return {};
   }
 };
 
+
+// 📈 Daily data
 export const fetchDailyData = async () => {
   try {
-    const { data } = await axios.get(`${url}/daily`);
+    const { data } = await axios.get(
+      `${BASE_URL}/historical/all?lastdays=all`
+    );
 
-    const modifiedData = data.map((dailyData) => ({
-      confirmed: dailyData.confirmed.total,
-      deaths: dailyData.deaths.total,
-      date: dailyData.reportDate,
+    return Object.keys(data.cases).map((date) => ({
+      date,
+      confirmed: data.cases[date],
+      deaths: data.deaths[date],
+      recovered: data.recovered[date] || 0,  
     }));
-    return modifiedData;
   } catch (error) {
-    console.log(error);
+    console.error('Error fetching daily data:', error);
+    return [];
   }
 };
 
+
+// 🌐 Countries list
 export const fetchCountries = async () => {
   try {
-    const {
-      data: { countries },
-    } = await axios.get(`${url}/countries`);
-
-    return countries.map((country) => country.name);
+    const { data } = await axios.get(`${BASE_URL}/countries`);
+    return data;
   } catch (error) {
-    console.log(error);
+    console.error('Error fetching countries:', error);
+    return [];
   }
 };
+
+
+
